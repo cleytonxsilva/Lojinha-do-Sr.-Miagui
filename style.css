@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font: normal 15px Arial;
+}
+
+#ITENS_LOJA {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem 1rem;
+}
+h1{
+    padding-top: 1rem;
+    text-align: center;
+}
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p {
+    margin: 0.3rem;
+    text-align: start;
+}
+#style_preço{
+    text-align: center;
+    padding-top: 10px;
+}
+#style_descricao{
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.itens_mostrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    height: 18rem;
+    border: 1px solid rgb(48, 154, 199);
+    border-radius: 10px;
+}
